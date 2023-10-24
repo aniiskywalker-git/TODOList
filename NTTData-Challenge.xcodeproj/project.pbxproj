@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182812BE2AE7547C0099633C /* NTTData_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812BD2AE7547C0099633C /* NTTData_ChallengeApp.swift */; };
+		182812C02AE7547C0099633C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812BF2AE7547C0099633C /* ContentView.swift */; };
+		182812C22AE7547E0099633C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182812C12AE7547E0099633C /* Assets.xcassets */; };
+		182812C52AE7547E0099633C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182812C42AE7547E0099633C /* Preview Assets.xcassets */; };
+		182812CF2AE7547E0099633C /* NTTData_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812CE2AE7547E0099633C /* NTTData_ChallengeTests.swift */; };
+		182812D92AE7547E0099633C /* NTTData_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812D82AE7547E0099633C /* NTTData_ChallengeUITests.swift */; };
+		182812DB2AE7547E0099633C /* NTTData_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812DA2AE7547E0099633C /* NTTData_ChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182812CB2AE7547E0099633C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182812B22AE7547C0099633C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182812B92AE7547C0099633C;
+			remoteInfo = "NTTData-Challenge";
+		};
+		182812D52AE7547E0099633C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182812B22AE7547C0099633C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182812B92AE7547C0099633C;
+			remoteInfo = "NTTData-Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182812BA2AE7547C0099633C /* NTTData-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NTTData-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182812BD2AE7547C0099633C /* NTTData_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTData_ChallengeApp.swift; sourceTree = "<group>"; };
+		182812BF2AE7547C0099633C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		182812C12AE7547E0099633C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182812C42AE7547E0099633C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		182812CA2AE7547E0099633C /* NTTData-ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NTTData-ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182812CE2AE7547E0099633C /* NTTData_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTData_ChallengeTests.swift; sourceTree = "<group>"; };
+		182812D42AE7547E0099633C /* NTTData-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NTTData-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182812D82AE7547E0099633C /* NTTData_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTData_ChallengeUITests.swift; sourceTree = "<group>"; };
+		182812DA2AE7547E0099633C /* NTTData_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTData_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182812B72AE7547C0099633C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182812C72AE7547E0099633C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182812D12AE7547E0099633C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182812B12AE7547C0099633C = {
+			isa = PBXGroup;
+			children = (
+				182812BC2AE7547C0099633C /* NTTData-Challenge */,
+				182812CD2AE7547E0099633C /* NTTData-ChallengeTests */,
+				182812D72AE7547E0099633C /* NTTData-ChallengeUITests */,
+				182812BB2AE7547C0099633C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182812BB2AE7547C0099633C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182812BA2AE7547C0099633C /* NTTData-Challenge.app */,
+				182812CA2AE7547E0099633C /* NTTData-ChallengeTests.xctest */,
+				182812D42AE7547E0099633C /* NTTData-ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182812BC2AE7547C0099633C /* NTTData-Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				182812BD2AE7547C0099633C /* NTTData_ChallengeApp.swift */,
+				182812BF2AE7547C0099633C /* ContentView.swift */,
+				182812C12AE7547E0099633C /* Assets.xcassets */,
+				182812C32AE7547E0099633C /* Preview Content */,
+			);
+			path = "NTTData-Challenge";
+			sourceTree = "<group>";
+		};
+		182812C32AE7547E0099633C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				182812C42AE7547E0099633C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		182812CD2AE7547E0099633C /* NTTData-ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				182812CE2AE7547E0099633C /* NTTData_ChallengeTests.swift */,
+			);
+			path = "NTTData-ChallengeTests";
+			sourceTree = "<group>";
+		};
+		182812D72AE7547E0099633C /* NTTData-ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182812D82AE7547E0099633C /* NTTData_ChallengeUITests.swift */,
+				182812DA2AE7547E0099633C /* NTTData_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "NTTData-ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182812B92AE7547C0099633C /* NTTData-Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182812DE2AE7547E0099633C /* Build configuration list for PBXNativeTarget "NTTData-Challenge" */;
+			buildPhases = (
+				182812B62AE7547C0099633C /* Sources */,
+				182812B72AE7547C0099633C /* Frameworks */,
+				182812B82AE7547C0099633C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NTTData-Challenge";
+			productName = "NTTData-Challenge";
+			productReference = 182812BA2AE7547C0099633C /* NTTData-Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182812C92AE7547E0099633C /* NTTData-ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182812E12AE7547E0099633C /* Build configuration list for PBXNativeTarget "NTTData-ChallengeTests" */;
+			buildPhases = (
+				182812C62AE7547E0099633C /* Sources */,
+				182812C72AE7547E0099633C /* Frameworks */,
+				182812C82AE7547E0099633C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182812CC2AE7547E0099633C /* PBXTargetDependency */,
+			);
+			name = "NTTData-ChallengeTests";
+			productName = "NTTData-ChallengeTests";
+			productReference = 182812CA2AE7547E0099633C /* NTTData-ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182812D32AE7547E0099633C /* NTTData-ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182812E42AE7547E0099633C /* Build configuration list for PBXNativeTarget "NTTData-ChallengeUITests" */;
+			buildPhases = (
+				182812D02AE7547E0099633C /* Sources */,
+				182812D12AE7547E0099633C /* Frameworks */,
+				182812D22AE7547E0099633C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182812D62AE7547E0099633C /* PBXTargetDependency */,
+			);
+			name = "NTTData-ChallengeUITests";
+			productName = "NTTData-ChallengeUITests";
+			productReference = 182812D42AE7547E0099633C /* NTTData-ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182812B22AE7547C0099633C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					182812B92AE7547C0099633C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					182812C92AE7547E0099633C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 182812B92AE7547C0099633C;
+					};
+					182812D32AE7547E0099633C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 182812B92AE7547C0099633C;
+					};
+				};
+			};
+			buildConfigurationList = 182812B52AE7547C0099633C /* Build configuration list for PBXProject "NTTData-Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182812B12AE7547C0099633C;
+			productRefGroup = 182812BB2AE7547C0099633C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182812B92AE7547C0099633C /* NTTData-Challenge */,
+				182812C92AE7547E0099633C /* NTTData-ChallengeTests */,
+				182812D32AE7547E0099633C /* NTTData-ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182812B82AE7547C0099633C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182812C52AE7547E0099633C /* Preview Assets.xcassets in Resources */,
+				182812C22AE7547E0099633C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182812C82AE7547E0099633C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182812D22AE7547E0099633C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182812B62AE7547C0099633C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182812C02AE7547C0099633C /* ContentView.swift in Sources */,
+				182812BE2AE7547C0099633C /* NTTData_ChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182812C62AE7547E0099633C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182812CF2AE7547E0099633C /* NTTData_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182812D02AE7547E0099633C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182812D92AE7547E0099633C /* NTTData_ChallengeUITests.swift in Sources */,
+				182812DB2AE7547E0099633C /* NTTData_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182812CC2AE7547E0099633C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182812B92AE7547C0099633C /* NTTData-Challenge */;
+			targetProxy = 182812CB2AE7547E0099633C /* PBXContainerItemProxy */;
+		};
+		182812D62AE7547E0099633C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182812B92AE7547C0099633C /* NTTData-Challenge */;
+			targetProxy = 182812D52AE7547E0099633C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		182812DC2AE7547E0099633C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182812DD2AE7547E0099633C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182812DF2AE7547E0099633C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NTTData-Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 84JLHWG37N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anavictoria.NTTData-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182812E02AE7547E0099633C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NTTData-Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 84JLHWG37N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anavictoria.NTTData-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		182812E22AE7547E0099633C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84JLHWG37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anavictoria.NTTData-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTTData-Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NTTData-Challenge";
+			};
+			name = Debug;
+		};
+		182812E32AE7547E0099633C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84JLHWG37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anavictoria.NTTData-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTTData-Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NTTData-Challenge";
+			};
+			name = Release;
+		};
+		182812E52AE7547E0099633C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84JLHWG37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anavictoria.NTTData-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NTTData-Challenge";
+			};
+			name = Debug;
+		};
+		182812E62AE7547E0099633C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84JLHWG37N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anavictoria.NTTData-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NTTData-Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182812B52AE7547C0099633C /* Build configuration list for PBXProject "NTTData-Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182812DC2AE7547E0099633C /* Debug */,
+				182812DD2AE7547E0099633C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182812DE2AE7547E0099633C /* Build configuration list for PBXNativeTarget "NTTData-Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182812DF2AE7547E0099633C /* Debug */,
+				182812E02AE7547E0099633C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182812E12AE7547E0099633C /* Build configuration list for PBXNativeTarget "NTTData-ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182812E22AE7547E0099633C /* Debug */,
+				182812E32AE7547E0099633C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182812E42AE7547E0099633C /* Build configuration list for PBXNativeTarget "NTTData-ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182812E52AE7547E0099633C /* Debug */,
+				182812E62AE7547E0099633C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182812B22AE7547C0099633C /* Project object */;
+}
