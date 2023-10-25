@@ -12,6 +12,8 @@ Open .xcproject and comand+shift+r to run.
 ## Missing specs
 In order to create push notifications and iCloud I need to create a paid account (I don't have one).
 
+## Visuals
+![ezgif com-video-to-gif](https://github.com/aniiskywalker-git/TODOList/assets/68025622/41af2cc0-ff31-4c6d-ad77-e5e88449a111)
 
 ## Requirements
 * Xcode Version 15.0+  Swift 5.0+
