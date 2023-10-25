@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1817BC1B2AE77B51000CC813 /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817BC1A2AE77B51000CC813 /* CheckBoxStyle.swift */; };
+		1817BC1D2AE77B7F000CC813 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817BC1C2AE77B7F000CC813 /* NewTaskView.swift */; };
+		1817BC1F2AE77BC8000CC813 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817BC1E2AE77BC8000CC813 /* Persistence.swift */; };
+		1817BC212AE77BF3000CC813 /* PriorityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817BC202AE77BF3000CC813 /* PriorityView.swift */; };
+		1817BC232AE77C11000CC813 /* TaskCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817BC222AE77C11000CC813 /* TaskCoreData.swift */; };
+		1817BC252AE77C30000CC813 /* TaskListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817BC242AE77C30000CC813 /* TaskListRow.swift */; };
+		1817BC272AE77C9F000CC813 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817BC262AE77C9F000CC813 /* BlankView.swift */; };
 		182812BE2AE7547C0099633C /* NTTData_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812BD2AE7547C0099633C /* NTTData_ChallengeApp.swift */; };
 		182812C02AE7547C0099633C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812BF2AE7547C0099633C /* ContentView.swift */; };
 		182812C22AE7547E0099633C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182812C12AE7547E0099633C /* Assets.xcassets */; };
@@ -14,6 +21,9 @@
 		182812CF2AE7547E0099633C /* NTTData_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812CE2AE7547E0099633C /* NTTData_ChallengeTests.swift */; };
 		182812D92AE7547E0099633C /* NTTData_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812D82AE7547E0099633C /* NTTData_ChallengeUITests.swift */; };
 		182812DB2AE7547E0099633C /* NTTData_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182812DA2AE7547E0099633C /* NTTData_ChallengeUITestsLaunchTests.swift */; };
+		184E841D2AE8537E0004E9E8 /* TaskToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 184E841B2AE8537E0004E9E8 /* TaskToDo.xcdatamodeld */; };
+		1899D01C2AE8D63E009CCC4C /* ViewModel+ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899D01B2AE8D63E009CCC4C /* ViewModel+ContentView.swift */; };
+		1899D0212AE8E642009CCC4C /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899D0202AE8E642009CCC4C /* NewTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1817BC1A2AE77B51000CC813 /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
+		1817BC1C2AE77B7F000CC813 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		1817BC1E2AE77BC8000CC813 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1817BC202AE77BF3000CC813 /* PriorityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityView.swift; sourceTree = "<group>"; };
+		1817BC222AE77C11000CC813 /* TaskCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCoreData.swift; sourceTree = "<group>"; };
+		1817BC242AE77C30000CC813 /* TaskListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListRow.swift; sourceTree = "<group>"; };
+		1817BC262AE77C9F000CC813 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		182812BA2AE7547C0099633C /* NTTData-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NTTData-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182812BD2AE7547C0099633C /* NTTData_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTData_ChallengeApp.swift; sourceTree = "<group>"; };
 		182812BF2AE7547C0099633C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,9 @@
 		182812D42AE7547E0099633C /* NTTData-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NTTData-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182812D82AE7547E0099633C /* NTTData_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTData_ChallengeUITests.swift; sourceTree = "<group>"; };
 		182812DA2AE7547E0099633C /* NTTData_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTData_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		184E841C2AE8537E0004E9E8 /* TaskToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskToDo.xcdatamodel; sourceTree = "<group>"; };
+		1899D01B2AE8D63E009CCC4C /* ViewModel+ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel+ContentView.swift"; sourceTree = "<group>"; };
+		1899D0202AE8E642009CCC4C /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,10 @@
 		182812BC2AE7547C0099633C /* NTTData-Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				182812BD2AE7547C0099633C /* NTTData_ChallengeApp.swift */,
-				182812BF2AE7547C0099633C /* ContentView.swift */,
+				1899D01F2AE8E634009CCC4C /* Model */,
+				184E84222AE88CA70004E9E8 /* Persistence */,
+				184E84212AE88C9B0004E9E8 /* Resources */,
+				184E841E2AE858560004E9E8 /* Presentation */,
 				182812C12AE7547E0099633C /* Assets.xcassets */,
 				182812C32AE7547E0099633C /* Preview Content */,
 			);
@@ -125,6 +147,78 @@
 				182812DA2AE7547E0099633C /* NTTData_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "NTTData-ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		184E841E2AE858560004E9E8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1899D01A2AE8D61F009CCC4C /* View */,
+				1899D0192AE8D617009CCC4C /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		184E84202AE8587C0004E9E8 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				1817BC1A2AE77B51000CC813 /* CheckBoxStyle.swift */,
+				1817BC202AE77BF3000CC813 /* PriorityView.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		184E84212AE88C9B0004E9E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				182812BD2AE7547C0099633C /* NTTData_ChallengeApp.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		184E84222AE88CA70004E9E8 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				1817BC1E2AE77BC8000CC813 /* Persistence.swift */,
+				1817BC222AE77C11000CC813 /* TaskCoreData.swift */,
+				184E841B2AE8537E0004E9E8 /* TaskToDo.xcdatamodeld */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		184E84232AE88CD30004E9E8 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				1817BC242AE77C30000CC813 /* TaskListRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		1899D0192AE8D617009CCC4C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1899D01B2AE8D63E009CCC4C /* ViewModel+ContentView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1899D01A2AE8D61F009CCC4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				182812BF2AE7547C0099633C /* ContentView.swift */,
+				1817BC1C2AE77B7F000CC813 /* NewTaskView.swift */,
+				1817BC262AE77C9F000CC813 /* BlankView.swift */,
+				184E84202AE8587C0004E9E8 /* CustomUI */,
+				184E84232AE88CD30004E9E8 /* Rows */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1899D01F2AE8E634009CCC4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1899D0202AE8E642009CCC4C /* NewTask.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +351,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1817BC1D2AE77B7F000CC813 /* NewTaskView.swift in Sources */,
+				1817BC1B2AE77B51000CC813 /* CheckBoxStyle.swift in Sources */,
+				1899D0212AE8E642009CCC4C /* NewTask.swift in Sources */,
+				1817BC212AE77BF3000CC813 /* PriorityView.swift in Sources */,
+				1899D01C2AE8D63E009CCC4C /* ViewModel+ContentView.swift in Sources */,
+				1817BC252AE77C30000CC813 /* TaskListRow.swift in Sources */,
+				184E841D2AE8537E0004E9E8 /* TaskToDo.xcdatamodeld in Sources */,
+				1817BC272AE77C9F000CC813 /* BlankView.swift in Sources */,
 				182812C02AE7547C0099633C /* ContentView.swift in Sources */,
+				1817BC232AE77C11000CC813 /* TaskCoreData.swift in Sources */,
 				182812BE2AE7547C0099633C /* NTTData_ChallengeApp.swift in Sources */,
+				1817BC1F2AE77BC8000CC813 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,12 +526,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NTTData-Challenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 84JLHWG37N;
+				DEVELOPMENT_TEAM = JP76737QG8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -435,7 +540,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anavictoria.NTTData-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anafrias.NTTData-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -451,12 +556,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NTTData-Challenge/Preview Content\"";
-				DEVELOPMENT_TEAM = 84JLHWG37N;
+				DEVELOPMENT_TEAM = JP76737QG8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,7 +570,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anavictoria.NTTData-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anafrias.NTTData-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -588,6 +694,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		184E841B2AE8537E0004E9E8 /* TaskToDo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				184E841C2AE8537E0004E9E8 /* TaskToDo.xcdatamodel */,
+			);
+			currentVersion = 184E841C2AE8537E0004E9E8 /* TaskToDo.xcdatamodel */;
+			path = TaskToDo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 182812B22AE7547C0099633C /* Project object */;
 }
